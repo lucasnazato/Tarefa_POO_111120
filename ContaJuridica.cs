@@ -19,6 +19,7 @@ namespace Tarefa_POO_111120
             EmprestimoLimite = emprestimoLimite;
         }
 
+        // Método de Empréstimo
         public void Emprestimo (double saldoTotal)
         {
             if (saldoTotal <= EmprestimoLimite)
